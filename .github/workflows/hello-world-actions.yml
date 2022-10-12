@@ -22,5 +22,3 @@ jobs:
           node-version: 16.x
       - run: npm --prefix hello-world install
       - run: npm --prefix hello-world run build
-      - name: Run tests
-      - run: npm run test:headless
