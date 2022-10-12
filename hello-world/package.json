@@ -34,5 +34,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.7.2"
+    "build:prod": "ng build --configuration production --base-href https://spongebob1910.github.io/TD1-HelloWorld/",
+  "test:headless": "ng test --watch=false --browsers=ChromeHeadless"
   }
 }
